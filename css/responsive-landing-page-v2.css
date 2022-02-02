@@ -1,0 +1,203 @@
+    @media (min-width: 1900px) {
+        /* CSS */
+        .container {
+            width: 1500px;
+            max-width: 95%;
+        }
+        h1 {
+            font-size: 96px;
+        }
+        .course-now {
+            background-image: url(../img/course-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+    /* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+    
+    @media (min-width: 1281px) and (max-width: 1439px) {
+        /* CSS */
+        .course-now ul li {
+            font-size: 15px!important;
+        }
+        .woaccelerator h2 {
+            font-size: 44px;
+        }
+    }
+    /* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+    
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        /* CSS */
+    }
+    /* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+    
+    @media (min-width: 768px) and (max-width: 1024px) {}
+    /* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+    
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        body {
+            text-align: center;
+        }
+        h1 {
+            font-size: 44px;
+        }
+        button {
+            font-size: 16px!important;
+        }
+        h3 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .row-02 button {
+            margin-bottom: 48px;
+        }
+        .course-now h3 {
+            /* margin-top: 0px; */
+        }
+        .course-now ul li {
+            font-size: 15px;
+            line-height: 30px;
+        }
+        .course-perks .l-side ul li {
+            text-align: left;
+            font-size: 16px;
+        }
+        .woaccelerator h2 {
+            text-align: center;
+            font-size: 30px!important;
+        }
+        .button-side {
+            display: block;
+        }
+        .logo2 {
+            justify-content: center;
+        }
+        .course-now .img3 {
+            margin-top: -120px;
+        }
+        footer a {
+            font-size: 12px;
+        }
+    }
+    /* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        body {
+            text-align: center;
+        }
+        h1 {
+            font-size: 44px;
+        }
+        button {
+            font-size: 16px!important;
+        }
+        h3 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .row-02 button {
+            margin-bottom: 48px;
+        }
+        .course-now h3 {
+            /* margin-top: 0px; */
+        }
+        .course-now ul li {
+            font-size: 15px;
+            line-height: 30px;
+        }
+        .course-perks .l-side ul li {
+            text-align: left;
+            font-size: 16px;
+        }
+        .woaccelerator h2 {
+            text-align: center;
+            font-size: 30px!important;
+        }
+        .button-side {
+            display: block;
+        }
+        .logo2 {
+            justify-content: center;
+        }
+        .course-now .img3 {
+            margin-top: -120px;
+        }
+    }
+    /* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+        body {
+            text-align: center;
+        }
+        h1 {
+            font-size: 44px;
+        }
+        button {
+            font-size: 16px!important;
+        }
+        h3 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .row-02 button {
+            margin-bottom: 48px;
+        }
+        .course-now h3 {
+            margin-top: 0px;
+        }
+        .course-now ul li {
+            font-size: 15px;
+            line-height: 30px;
+        }
+        .course-perks .l-side ul li {
+            text-align: left;
+            font-size: 16px;
+        }
+        .woaccelerator h2 {
+            text-align: center;
+            font-size: 30px!important;
+        }
+        .button-side {
+            display: block;
+        }
+        .logo2 {
+            justify-content: center;
+        }
+        .course-now .img3 {
+            margin-top: -160px;
+        }
+    }

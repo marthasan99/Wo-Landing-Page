@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*    font-family: 'Inter', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif; */
+
+
+/* banner section code  */
+
+.banner {
+    background-image: url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    padding-top: 60px;
+}
+
+.banner-content {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 108px;
+}
+
+h1 {
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 129.8%;
+    letter-spacing: 0.07em;
+}
+
+.banner-content p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 37px;
+    margin: 35px auto;
+}
+
+.banner-content .btn1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    padding: 16px 116px;
+    color: #ffffff;
+    background: #35A1FF;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.07);
+    margin-bottom: 229px;
+}
+
+
+/* feature-01 section code */
+
+.feature-01 .container .row-01 {
+    margin-top: 110px;
+}
+
+.row-01 h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.row-01 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.img01 {
+    margin-left: -20px;
+}
+
+.feature-01 .container .row-02 {
+    margin-top: 100px;
+}
+
+.row-02 h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 59px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.row-02 h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 51px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.row-02 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.row-02 button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 19px 74px;
+    background: #2B79BD;
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.07);
+    outline: none;
+    border: none;
+}
+
+
+/* Our Courses section */
+
+.our-courses {
+    margin-top: 116px;
+}
+
+.our-courses h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 107px;
+}
+
+.our-courses h2::before {
+    content: url(../img/Tracé\ 3210.svg);
+    position: relative;
+    top: 48px;
+    left: 124px;
+}
+
+.our-courses h2 span {
+    color: #2B79BD;
+}
+
+.our-courses .card {
+    text-align: center;
+}
+
+.our-courses .card .card-text {
+    padding: 0px 24px;
+}
+
+.card-icon {
+    width: 55px;
+    margin-top: 67px;
+}
+
+.card-bg-02 {
+    background-image: url("../img/card-02-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    box-shadow: 0px 45px 45px 12px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    border: none;
+}
+
+.card-bg {
+    background: linear-gradient(148.61deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 4px 13px rgba(0, 0, 0, 0.03));
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    border: none;
+}
+
+.btn2 {
+    margin-top: 68px;
+    margin-bottom: 58px;
+    padding: 20px 56px;
+    background: #214B80;
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.07);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+
+/* Course Now section code */
+
+.course-now {
+    background-image: url(../img/course-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.course-now .img3 {
+    margin-top: -200px;
+    margin-bottom: 60px;
+}
+
+.course-now h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-top: 121px;
+    margin-bottom: 40px;
+}
+
+.course-now p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+}
+
+.course-now ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin-bottom: 51px;
+}
+
+
+/* Course Perks section code */
+
+.course-perks {
+    margin-bottom: 82px;
+}
+
+.course-perks .l-side {
+    border-left: 2px solid #14274A;
+    margin-right: 49px;
+    margin-top: 163px;
+}
+
+.course-perks .l-side h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #14274A;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.course-perks .l-side ul {
+    list-style-type: none;
+}
+
+.course-perks .l-side ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 53px;
+    color: #14274A;
+    -webkit-text-stroke: 0.3px #14274A;
+}
+
+.course-perks .l-side ul li:last-child {
+    color: #ed1c24;
+    -webkit-text-stroke: 0.3px #14274A;
+}
+
+.course-perks .sign-image {
+    height: 13px;
+    width: 20px;
+    margin-right: 9.5px;
+}
+
+.course-perks .l-side button {
+    padding: 20px 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #FFB800;
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.07);
+    border: none;
+    outline: none;
+    margin-left: 30px;
+}
+
+.course-perks-image {
+    margin-top: 127px;
+}
+
+.woaccelerator {
+    background: url("../img/img4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.woaccelerator .container .row:last-child {
+    padding-bottom: 90px;
+}
+
+.woaccelerator h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 98px;
+    padding-bottom: 35px;
+}
+
+.woaccelerator-header {
+    padding-top: 58px;
+    padding-bottom: 19px;
+}
+
+.woaccelerator-header::after {
+    content: url(../img/Tracé\ 3209.svg);
+    position: relative;
+    top: 18px;
+    left: -18px;
+}
+
+.woaccelerator p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.woaccelerator h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: white;
+    margin: 75px 0px;
+    position: relative;
+    z-index: 9999;
+}
+
+.line .circle {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    z-index: 1000;
+    bottom: -12.5px;
+    left: 80px;
+}
+
+.button-side {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.button-side button {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.07);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #2B79BD;
+    -webkit-text-stroke: 0.3px #FFFFFF;
+    padding: 19px 102px;
+    outline: none;
+    border: none;
+}
+
+
+/* footer section code  */
+
+footer {
+    background: #162633;
+}
+
+footer .footer-content {
+    padding-top: 25px;
+    padding-bottom: 32px;
+}
+
+footer .row .col-md-4:first-child {
+    display: flex;
+    align-items: center;
+}
+
+footer .row .row {
+    padding-top: 10px;
+}
+
+footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+
+/* Modal */
+
+.modal-dialog {
+    max-width: 535px;
+}
+
+.modal-content {
+    padding: 39px 68px 29px 68px;
+}
+
+.modal-header {
+    display: block!important;
+}
+
+.modal-header .modal-title {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.modal-header button {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
+
+
+/* .modal-body input {
+        display: block
+    }
+    
+    .modal-body #checkbox {
+        display: inline!important;
+    } */
+
+.modal-body form label {
+    display: block;
+    text-align: left!important;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.modal-body form .input1 {
+    width: 100%;
+    margin-bottom: 26px;
+    border: 1px solid #858585;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.modal-body form .input2 {
+    width: 100%;
+    margin-bottom: 37px;
+    border: 1px solid #858585;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.modal-body form .checkbox {
+    display: inline!important;
+    margin-left: 5px;
+    text-align: left;
+}
+
+#checkbox {
+    text-align: left!important;
+    background: #EBEBEB;
+    border-radius: 3px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-footer button {
+    background: #2B79BD;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    padding: 10px 91px;
+    width: 100%
+}
